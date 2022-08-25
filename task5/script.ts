@@ -27,6 +27,7 @@ resetBtn.addEventListener('click', (): void => {
     prohibited.slice(0);
     badWord.innerHTML = `<span>Bad words: </span>`;
     textArea.value = '';
+    check = 0;
 })
 cenzorBtn?.addEventListener('click', (e): void => {
     e.preventDefault();
